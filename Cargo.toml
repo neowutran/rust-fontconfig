@@ -10,5 +10,5 @@ license=  "MIT / Apache-2.0"
 name = "fontconfig"
 
 [dependencies]
-servo-fontconfig-sys = "2.11.1"
+servo-fontconfig-sys = { git = "https://github.com/jwilm/libfontconfig" }
 libc = "0.2"
